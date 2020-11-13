@@ -1,0 +1,18 @@
+/* Error: expected "{".
+ *     ,
+ * 167 |         min-height: 520px;sass --watch assets/scss/style.scss assets/css/style.css
+ *     |                                                                                   ^
+ *     '
+ *   assets\scss\components\_slider.scss 167:77  @import
+ *   assets\scss\style.scss 67:9                 root stylesheet */
+
+body::before {
+  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
+      "Droid Sans Mono", monospace, monospace;
+  white-space: pre;
+  display: block;
+  padding: 1em;
+  margin-bottom: 1em;
+  border-bottom: 2px solid black;
+  content: 'Error: expected "{".\a     \2577 \a 167 \2502          min-height: 520px;sass --watch assets/scss/style.scss assets/css/style.css\d\a     \2502                                                                                    ^\a     \2575 \a   assets\\scss\\components\\_slider.scss 167:77  @import\a   assets\\scss\\style.scss 67:9                 root stylesheet';
+}
